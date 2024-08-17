@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Graphql Server",
+  "main": "index.js",
+  "author": "Rushikesh Acharya",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.7.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "graphql": "^16.9.0",
+    "nodemon": "^3.1.4"
+  }
+}
